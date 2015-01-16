@@ -1,3 +1,7 @@
+/*
+Houdt 'R' in om opnames te maken
+*/
+
 import processing.pdf.*;
 
 GenerativeLogo GL = new GenerativeLogo(150);
@@ -53,7 +57,11 @@ class GenerativeLogo {
     stroke(randomColor(), randomColor(), randomColor());
     fill(randomColor(), randomColor(), randomColor());
     ico1.create();
+        
     popMatrix();
+    fill(randomColor(), randomColor(), randomColor());
+    textSize(32);
+    text("Stephan Tenbült", -120, 200);
   }
 }
 
